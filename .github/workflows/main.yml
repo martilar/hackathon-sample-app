@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out ktrnka/update-your-readme
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - uses: ktrnka/update-your-readme@portability
         with:
